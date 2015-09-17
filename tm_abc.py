@@ -82,11 +82,7 @@ class TM_abc():
 
       c = self.x[self.head]
 
-      key = '*'
-      for chars in self.delta[self.state]:
-        if c in chars:
-          key = chars
-          break
+      key = next((x for x in self.delta[self.state] if c in x), '*')
 
       delta = self.delta[self.state][key]
 
