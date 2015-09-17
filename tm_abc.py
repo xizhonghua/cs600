@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 import sys
 
-'''
-TM that decides the language L = {a^nb^nc^n|n>=0}
-'''
+"""
+  TM that decides the language L = {a^nb^nc^n|n>=0}
+
+"""
 
 
 class TM_abc():
@@ -12,15 +13,12 @@ class TM_abc():
 
     return
 
-  '''
+  """
   Get the char in head position
-  '''
+  """
 
   def get(self):
     return self.x[self.head]
-
-  '''
-  '''
 
   def move(self, d, val=None):
     if val is not None:
@@ -120,6 +118,20 @@ class TM_abc():
     return 'reject'
 
   def run(self, x):
+    """
+    >>> TM_abc().run('abc')
+    'accept'
+    >>> TM_abc().run('aaabbbccc')
+    'accept'
+    >>> TM_abc().run('abcc')
+    'reject'
+    >>> TM_abc().run('ac')
+    'reject'
+    >>> TM_abc().run('cabc')
+    'reject'
+    >>> TM_abc().run('aabbc')
+    'reject'
+    """
     self.x = list(' ' + x + ' ')
     self.head = 1
     return self.q_0()
