@@ -6,6 +6,10 @@
 * *L<sub>EQ</sub>* / *EQ<sub>TM</sub>* = {*(\<M<sub>1</sub>\>,\<M<sub>2</sub>\>)* | *L(M<sub>1</sub>)* = *L(M<sub>2</sub>)*}
 * *L<sub>∅</sub>* / *E<sub>TM</sub>* = {*(\<M\>* | *L(M)* = ∅}
 
+---------------------------------------
+
+Note: Everything marked as bold were proved in the nodes.
+
 ### Decidability
 | Language                            | D    | R    | Language                         | D    | R    |
 | ------------------------------------|:----:|:----:|----------------------------------|:----:|:----:|
@@ -17,7 +21,7 @@
 * *L<sub>halt</sub>* ≤<sub>m</sub> *L<sub>A/R</sub>*
 * *L<sub>halt</sub>* ≤<sub>m</sub> *(L<sub>∅</sub>)<sup>c</sup>*
 * *L<sub>halt</sub>* ≤<sub>m</sub> *(L<sub>EQ</sub>)<sup>c</sup>*
-* *L<sub>∅</sub>* ≤<sub>m</sub> *L<sub>EQ</sub>*
+* ***L<sub>∅</sub>* ≤<sub>m</sub> *L<sub>EQ</sub>***
 
 #### TODO
 Mark what was proved on notes, what wasn't.
