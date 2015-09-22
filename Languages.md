@@ -16,3 +16,5 @@
 ### Reducibility
 * *L<sub>halt</sub>* ≤<sub>m</sub> *L<sub>A/R</sub>*
 * *L<sub>halt</sub>* ≤<sub>m</sub> *(L<sub>∅</sub>)<sup>c</sup>*
+* *L<sub>halt</sub>* ≤<sub>m</sub> *(L<sub>EQ</sub>)<sup>c</sup>*
+* *L<sub>∅</sub>* ≤<sub>m</sub> *L<sub>EQ</sub>*
