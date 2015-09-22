@@ -13,12 +13,12 @@ Based on the notes at https://cs.gmu.edu/~gordon/teaching/cs600/syllabus.html
 Note: Everything marked as bold were proved in the nodes.
 
 ### Decidability
-| Language               | D       | R    | Language                         | D       | R       |
-| -----------------------|:-------:|:----:|----------------------------------|:-------:|:-------:|
-| *L<sub>halt</sub>*     | **NO**  | YES  | *(L<sub>halt</sub>)<sup>c</sup>* | NO      | **NO**  |
-| *L<sub>A/R</sub>*      | **NO**  | ?    | *(L<sub>A/R</sub>)<sup>c</sup>*  | ?       | ?       |
-| *L<sub>∅</sub>*        | **NO**  | NO   | *(L<sub>∅</sub>)<sup>c</sup>*    | NO      | YES     |
-| *L<sub>EQ</sub>*       | **NO**  | NO   | *(L<sub>EQ</sub>)<sup>c</sup>*   | NO      | NO      |
+| Language               | D      | R       | Language                         | D       | R       |
+| -----------------------|:------:|:-------:|----------------------------------|:-------:|:-------:|
+| *L<sub>halt</sub>*     | **NO** | **YES** | *(L<sub>halt</sub>)<sup>c</sup>* | NO      | **NO**  |
+| *L<sub>A/R</sub>*      | **NO** | ?       | *(L<sub>A/R</sub>)<sup>c</sup>*  | ?       | ?       |
+| *L<sub>∅</sub>*        | **NO** | NO      | *(L<sub>∅</sub>)<sup>c</sup>*    | NO      | YES     |
+| *L<sub>EQ</sub>*       | **NO** | NO      | *(L<sub>EQ</sub>)<sup>c</sup>*   | NO      | NO      |
 
 ### Reducibility
 * *L<sub>halt</sub>* ≤<sub>m</sub> *L<sub>A/R</sub>*
