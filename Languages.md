@@ -6,4 +6,8 @@
 * *L<sub>EQ</sub>* / *EQ<sub>TM</sub>* = {*(\<M<sub>1</sub>\>,\<M<sub>2</sub>\>)* | *L(M<sub>1</sub>)* = *L(M<sub>2</sub>)*}
 * *L<sub>∅</sub>* / *E<sub>TM</sub>* = {*(\<M\>* | *L(M)* = ∅}
 
-### Decidability 
+### Decidability
+| Language                            | D    | R    | Language                         | D    | R    |
+| ------------------------------------|:----:|:----:|----------------------------------|:----:|:----:|
+| *L<sub>halt</sub>*                  | NO   | YES  | *(L<sub>halt</sub>)<sup>c</sup>* | NO   | YES  |
+| *L<sub>∅</sub>*                     | NO   | NO   | *(L<sub>∅</sub>)<sup>c</sup>*    | NO   | NO   |
