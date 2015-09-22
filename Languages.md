@@ -10,4 +10,5 @@
 | Language                            | D    | R    | Language                         | D    | R    |
 | ------------------------------------|:----:|:----:|----------------------------------|:----:|:----:|
 | *L<sub>halt</sub>*                  | NO   | YES  | *(L<sub>halt</sub>)<sup>c</sup>* | NO   | YES  |
-| *L<sub>∅</sub>*                     | NO   | NO   | *(L<sub>∅</sub>)<sup>c</sup>*    | NO   | NO   |
+| *L<sub>∅</sub>*                     | NO   | NO   | *(L<sub>∅</sub>)<sup>c</sup>*    | NO   | YES  |
+| *L<sub>EQ</sub>*                    | NO   | NO   | *(L<sub>EQ</sub>)<sup>c</sup>*   | NO   | NO   |
