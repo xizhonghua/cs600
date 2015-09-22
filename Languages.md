@@ -24,7 +24,7 @@ Note: Everything marked as bold were proved in the nodes.
 * *L<sub>halt</sub>* ≤<sub>m</sub> *L<sub>A/R</sub>*
 * *L<sub>halt</sub>* ≤<sub>m</sub> *(L<sub>∅</sub>)<sup>c</sup>*
 * *L<sub>halt</sub>* ≤<sub>m</sub> *(L<sub>EQ</sub>)<sup>c</sup>*
-* ***L<sub>∅</sub>* ≤<sub>m</sub> *L<sub>EQ</sub>***
+* ***L<sub>∅</sub> ≤<sub>m</sub> L<sub>EQ</sub>***
 
 #### TODO
 Mark what was proved on notes, what wasn't.
