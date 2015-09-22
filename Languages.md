@@ -1,5 +1,7 @@
 ## Languages
 
+Based on the notes at https://cs.gmu.edu/~gordon/teaching/cs600/syllabus.html
+
 ### Definitions
 * *L<sub>halt</sub>* / *A<sub>TM</sub>* = {*(\<M\>,x)* | *M(x)* halts with output 1}
 * *L<sub>A/R</sub>* / *Halt<sub>TM</sub>* = {*(\<M\>,x)* | *M(x)* halts with output 0 or 1}
