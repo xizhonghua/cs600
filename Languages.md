@@ -17,8 +17,8 @@ Note: Everything marked as bold were proved in the nodes.
 | -----------------------|:-------:|:----:|----------------------------------|:-------:|:-------:|
 | *L<sub>halt</sub>*     | **NO**  | YES  | *(L<sub>halt</sub>)<sup>c</sup>* | NO      | **NO**  |
 | *L<sub>A/R</sub>*      | **NO**  | ?    | *(L<sub>A/R</sub>)<sup>c</sup>*  | ?       | ?       |
-| *L<sub>∅</sub>*        | NO      | NO   | *(L<sub>∅</sub>)<sup>c</sup>*    | NO      | YES     |
-| *L<sub>EQ</sub>*       | NO      | NO   | *(L<sub>EQ</sub>)<sup>c</sup>*   | NO      | NO      |
+| *L<sub>∅</sub>*        | **NO**  | NO   | *(L<sub>∅</sub>)<sup>c</sup>*    | NO      | YES     |
+| *L<sub>EQ</sub>*       | **NO**  | NO   | *(L<sub>EQ</sub>)<sup>c</sup>*   | NO      | NO      |
 
 ### Reducibility
 * *L<sub>halt</sub>* ≤<sub>m</sub> *L<sub>A/R</sub>*
