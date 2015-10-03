@@ -3,7 +3,7 @@
 #### Time
 
 * ***P*** stands for *polynomial time*
-* ***P*** = ∪<sub>c≥1</sub> ( TIME(n<sup>c</sup>) )
+* Definition ***P*** = ∪<sub>c≥1</sub> ( TIME(n<sup>c</sup>) )
 * ***L*** ∈ ***P*** ↔ ∃ a TM ***M<sub>L</sub>*** and a polynomial ***p*** s.t. ***M<sub>L</sub>*** decides ***L*** in p(|x|) time
 
 ----
@@ -13,7 +13,8 @@
   * ***x*** ∈ ***L*** ↔ ∃ a witness ***w*** that ***M<sub>L</sub>(x,w)=1***
 
 ----  
-* ***coNP*** = {***L*** | ***<del>L</del>*** ∈ ***NP*** }, ***<del>L</del>*** = {0,1}<sup>\*</sup> \ ***L***
+* Definition ***coNP*** = {***L*** | ***<del>L</del>*** ∈ ***NP*** }, ***<del>L</del>*** = {0,1}<sup>\*</sup> \ ***L***
+* Conjecture ***NP*** ≠  ***coNP***
 
 ----
 * Theorem ***P*** ⊆ ***NP*** ⊆ ∪<sub>c≥1</sub> TIME(2<sup>n<sup>c</sup></sup>)
