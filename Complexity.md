@@ -35,4 +35,4 @@
 * NSPACE(s(n)) ⊆ NTIME(2<sup>O(s(n))</sup>), s(n) ≥ logn
 * NSPACE(s(n)) ⊆ TIME(2<sup>O(s(n))</sup>), s(n) ≥ logn
 * NSPACE(s(n)) ⊆ NSPACE(s(n)<sup>2</sup>)
-* ***L***  ⊆ ***NL*** ⊆ ***P*** ⊆ ***NP*** ⊆ ***PSPACE*** = ***NPSPACE*** ⊆ ***EXP*** 
+* ***L***  ⊆ ***NL***  = ***coNL*** ⊆ ***P*** ⊆ ***NP*** ⊆ ***PSPACE*** = ***NPSPACE*** ⊆ ***EXP*** 
