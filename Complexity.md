@@ -14,7 +14,9 @@
 
 ----  
 * Definition ***coNP*** = {***L*** | ***<del>L</del>*** ∈ ***NP*** }, ***<del>L</del>*** = {0,1}<sup>\*</sup> \ ***L***
+* ***P*** ⊆  ***coNP*** ∩ ***coNP***
 * Conjecture ***NP*** ≠  ***coNP***
+
 
 ----
 * Theorem ***P*** ⊆ ***NP*** ⊆ ∪<sub>c≥1</sub> TIME(2<sup>n<sup>c</sup></sup>)
