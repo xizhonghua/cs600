@@ -16,6 +16,7 @@
 * Definition ***coNP*** = {***L*** | ***<del>L</del>*** ∈ ***NP*** }, ***<del>L</del>*** = {0,1}<sup>\*</sup> \ ***L***
 * ***P*** ⊆  ***coNP*** ∩ ***coNP***
 * Conjecture ***NP*** ≠  ***coNP***
+* Theorem  ∀ ***L*** ∈ ***coNP***, ***L'*** ∈ ***NP***-complete ⇒ ***L ≤<sub>ct</sub> L'***
 
 
 ----
