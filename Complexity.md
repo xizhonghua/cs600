@@ -28,3 +28,5 @@
 * ***SAT***, ***3SAT*** are ***NP***-Complete
  
 #### Space
+* SPACE(s(n)) ⊆ TIME(2<sup>O(s(n))</sup>)
+* ***L***  ⊆ ***NL*** ⊆ ***P*** ⊆ ***NP*** ⊆ ***PSPACE*** = ***NPSPACE*** ⊆ ***EXP*** 
